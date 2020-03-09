@@ -1,0 +1,30 @@
+header{
+    background-color: tomato;
+    top:0ps;
+    width:100%;
+    margin-top: 0px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.hedder{
+    font-size: 150%;
+    margin-left: 10px;
+}
+
+.body{
+    position: absolute;
+}
+
+.contact{
+    position:relative;
+    top:30px;
+    left:20px;
+}
+
+.submit{
+    position:relative;
+    top:40px;
+    left:75px;
+
+}
