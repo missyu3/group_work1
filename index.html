@@ -19,20 +19,24 @@
     </header>
     <article clsee="body">
       <table class="contact">
-        <tr>
-          <th>お名前</th>
-          <td><input type="text" class="text_width"></td>
-        </tr>
-        <tr>
-          <th>連絡先</th>
-          <td><input type="text" class="text_width"></td>
-        </tr>
-        <tr>
-          <th>内容</th>
-          <td><textarea name="test" cols="0" rows="3"></textarea></td>
-        </tr>
+        <form action="">
+          <tr>
+            <th>お名前</th>
+            <td><input type="text" class="text_width"></td>
+          </tr>
+          <tr>
+            <th>連絡先</th>
+              <td>
+                <input type="email" placeholder="メールアドレス" name="email"/>
+              </td>
+            </tr>
+          <tr>
+            <th>内容</th>
+            <td><textarea name="test" cols="0" rows="3"></textarea></td>
+          </tr>
+        </form>form>
       </table>
-      <input type="button" class="submit" value="送信">
+      <input type="submit" class="submit" value="送信">
     </article>
   </body>
 </html>
